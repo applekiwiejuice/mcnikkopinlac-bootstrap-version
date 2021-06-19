@@ -1,0 +1,21 @@
+.fcolor {
+  color: #19ccef;
+  font-size: 20px;
+  margin: 10px 10px;
+}
+
+.iconsHover:hover {
+  text-decoration: none;
+  color: #fe03a6;
+}
+
+footer {
+  background-image: url("../assets/img/services_background.jpg");
+  /* Parallax Effect */
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}

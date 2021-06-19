@@ -1,0 +1,48 @@
+#about {
+  display: grid;
+  grid-template-columns: minmax(100px, 30%) 1fr;
+  background: #100113;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: left;
+  color: #19ccef;
+  /* height: 100vh; */
+  width: 100%;
+}
+
+#about p:nth-child(2) {
+  font-weight: bold;
+  font-size: 25px;
+  color: rgb(204, 197, 197);
+  letter-spacing: 2px;
+}
+
+.about-title {
+  font-weight: bold;
+  font-size: 35px;
+  color: #19ccef;
+}
+
+.about-pink {
+  color: #fe03a6;
+}
+
+.sidebar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #100113;
+}
+
+.sidebar-photo {
+  border-radius: 50%;
+  max-width: 60%;
+}
+
+.content {
+  padding: 2rem;
+}
+
+.content p {
+  font-size: 25px;
+}

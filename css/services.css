@@ -1,0 +1,58 @@
+#services {
+  background: #0f002b;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  text-align: center;
+  background-image: url("../assets/img/services_background.jpg");
+  /* Parallax Effect */
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+#services p:nth-child(1) {
+  font-weight: bold;
+  font-size: 35px;
+  color: #19ccef;
+}
+
+.subtitle {
+  font-size: 25px;
+  color: #fe03a6;
+  /* letter-spacing: 5px; */
+  font-family: "Pacifico", cursive;
+  padding-bottom: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+.work-icon {
+  color: #19ccef;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+.child {
+  flex: 0 1 100px;
+  padding: 10px;
+  text-align: center;
+}
+
+.carousel {
+  z-index: 0;
+}
+
+.vh50 {
+  width: 50vh;
+}

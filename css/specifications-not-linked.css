@@ -1,0 +1,22 @@
+/* Not linked! for reference only! */
+
+.colors {
+  color: #19ccef;
+  color: #fe03a6;
+  color: rgb(204, 197, 197);
+  background: #0f002b;
+  background: #00072b;
+  /* blinking text cursor */
+  border-right-color: rgba(255, 255, 255, 0.75);
+  /* button */
+  background-color: #2e466e;
+  color: #ffffff;
+  background-color: #415989;
+  /* footer */
+  background: #100113;
+}
+
+.fonts {
+  font-family: "Pacifico", cursive;
+  font-family: calibri;
+}
